@@ -1,0 +1,25 @@
+.employee {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    &-letter {
+        width: 300px;
+
+        h3 {
+            font-size: 30px;
+        }
+
+        &-radio {
+            background-color: rgb(218, 218, 218);
+            border: 1px solid rgb(196, 196, 196);
+            &:hover {
+                background-color: rgb(241, 241, 241);
+            }
+            p {
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+}
