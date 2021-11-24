@@ -1,14 +1,12 @@
-import { Routes, Route, Navigate } from "react-router-dom";
-import Page from './Page';
+import Alphabet from './modules/Alphabet';
+import Birthdays from './modules/Birthdays';
 import './App.scss';
 
 const App = ()  => {
   return (
-    <div>
-      <Navigate from='/' to='/employees' />
-      <Routes>
-      <Route path='/employees' element={<Page />} />
-      </Routes>
+    <div className="page">
+      <Alphabet />
+      <Birthdays/>
     </div>
   );
 }
