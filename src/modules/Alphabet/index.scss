@@ -1,3 +1,9 @@
+.header {
+    h2{
+        text-align: center;
+    }
+}
+
 .employee {
     display: flex;
     flex-wrap: wrap;
@@ -13,8 +19,13 @@
         &-radio {
             background-color: rgb(218, 218, 218);
             border: 1px solid rgb(196, 196, 196);
+            border-radius: 4%;
+            margin: 2px;
             &:hover {
                 background-color: rgb(241, 241, 241);
+            }
+            .active-name {
+                color: blue;
             }
             p {
                 font-size: 20px;

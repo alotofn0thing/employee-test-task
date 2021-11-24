@@ -57,8 +57,12 @@ const Birthdays = () => {
 
     return (
         <div className="birthday">
-            BIRTHDAYS
+            <h2>
+            Employees birthday
+            </h2>
+            <div className="birthday-list">
             {getBirthdays}
+            </div>
         </div>
     )
 };
